@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "PetProtect",
+    "slug": "PetProtect",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/calm.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/icons/calm.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.abdsaeed.MyApp",
+      "config": {
+        "googleMapsApiKey": "AIzaSyCPnC7pCS8_0cFSfJb20Y2IFYNb50QYZ0E"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons/calm.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.abdsaeed.MyApp",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCPnC7pCS8_0cFSfJb20Y2IFYNb50QYZ0E"
+        }
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/icons/calm.png"
+    },
+    "plugins": [
+      "expo-modules-test-core",
+      "expo-font"
+    ]
+  }
+}
